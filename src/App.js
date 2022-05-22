@@ -12,6 +12,7 @@ import { Muiavatar } from './components/Muiavatar';
 import { Muibadge } from './components/Muibadge';
 import { Muidrawer } from './components/Muidrawer';
 import { MuiImagelist } from './components/MuiImagelist';
+import { MuiList } from './components/MuiList';
 import { Muinavbar } from './components/Muinavbar';
 import { MuiSpeeddial } from './components/MuiSpeeddial';
 import { MuiRadiobutton } from './components/Radiobutton';
@@ -47,7 +48,8 @@ function App() {
       {/* <Muidrawer /> */}
       {/* <MuiSpeeddial /> */}
       {/* <Muiavatar /> */}
-      <Muibadge />
+      {/* <Muibadge /> */}
+      <MuiList />
       
     </div>
   );
