@@ -15,12 +15,14 @@ import { MuiImagelist } from './components/MuiImagelist';
 import { MuiList } from './components/MuiList';
 import { Muinavbar } from './components/Muinavbar';
 import { MuiSpeeddial } from './components/MuiSpeeddial';
+import { Muitooltip } from './components/Muitooltip';
 import { MuiRadiobutton } from './components/Radiobutton';
 import { Muirating } from './components/rating';
 import { Muiselecttag } from './components/selecttag';
 import { Muistack } from './components/stack';
 import { Stopwatch } from './components/Stopwatch';
 import { MuiSwitch } from './components/Switch';
+import { MuiTable } from './components/Table';
 import { MuiTextfield } from './components/textfield';
 import { MuiTypography } from './components/typography';
 
@@ -49,7 +51,9 @@ function App() {
       {/* <MuiSpeeddial /> */}
       {/* <Muiavatar /> */}
       {/* <Muibadge /> */}
-      <MuiList />
+      {/* <MuiList /> */}
+      {/* <Muitooltip /> */}
+      <MuiTable />
       
     </div>
   );
