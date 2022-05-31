@@ -1,6 +1,7 @@
 
 
 import './App.css';
+import { MuiAlert } from './components/Alert';
 import { Muibox } from './components/box';
 import { MuiButton } from './components/button';
 import { MuiCard } from './components/Card';
@@ -53,7 +54,8 @@ function App() {
       {/* <Muibadge /> */}
       {/* <MuiList /> */}
       {/* <Muitooltip /> */}
-      <MuiTable />
+      {/* <MuiTable /> */}
+      <MuiAlert />
       
     </div>
   );
