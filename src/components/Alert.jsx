@@ -49,5 +49,6 @@ export const MuiAlert = () => {
         This is an success alert
       </Alert>
     </Stack>
+    //Alert for error
   );
 };
